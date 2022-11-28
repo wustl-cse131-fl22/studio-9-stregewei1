@@ -17,11 +17,14 @@ public class NameToHeight {
 	 * and output the results. Be sure to handle the case where the map does not
 	 * contain a specified name.
 	 */
+	
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
-
-		// FIXME
-		throw new NotYetImplementedException();
-
+		
+		Map<String, Integer> map1 = new HashMap<String, Integer>();
+		map1.put("Colin", 75);
+		map1.put("Will", 72);
+		
+		System.out.println(map1);
 	}
 }
